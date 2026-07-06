@@ -1,0 +1,2 @@
+# afm2
+alphafoldpred

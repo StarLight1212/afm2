@@ -1,0 +1,151 @@
+nohup: ignoring input
+
+A module that was compiled using NumPy 1.x cannot be run in
+NumPy 2.4.2 as it may crash. To support both 1.x and 2.x
+versions of NumPy, modules must be compiled with NumPy 2.0.
+Some module may need to rebuild instead e.g. with 'pybind11>=2.12'.
+
+If you are a user of the module, the easiest solution will be to
+downgrade to 'numpy<2' or try to upgrade the affected module.
+We expect that some modules will need time to support NumPy 2.
+
+Traceback (most recent call last):  File "/home/data2/public/guoweis/pretrain/MAGE/benchmark/src/inference_1mlc.py", line 74, in <module>
+    main()
+  File "/home/data2/public/guoweis/pretrain/MAGE/benchmark/src/inference_1mlc.py", line 21, in main
+    import torch
+  File "/home/data2/public/guoweis/conda/progen2/lib/python3.11/site-packages/torch/__init__.py", line 1382, in <module>
+    from .functional import *  # noqa: F403
+  File "/home/data2/public/guoweis/conda/progen2/lib/python3.11/site-packages/torch/functional.py", line 7, in <module>
+    import torch.nn.functional as F
+  File "/home/data2/public/guoweis/conda/progen2/lib/python3.11/site-packages/torch/nn/__init__.py", line 1, in <module>
+    from .modules import *  # noqa: F403
+  File "/home/data2/public/guoweis/conda/progen2/lib/python3.11/site-packages/torch/nn/modules/__init__.py", line 35, in <module>
+    from .transformer import TransformerEncoder, TransformerDecoder, \
+  File "/home/data2/public/guoweis/conda/progen2/lib/python3.11/site-packages/torch/nn/modules/transformer.py", line 20, in <module>
+    device: torch.device = torch.device(torch._C._get_default_device()),  # torch.device('cpu'),
+/home/data2/public/guoweis/conda/progen2/lib/python3.11/site-packages/torch/nn/modules/transformer.py:20: UserWarning: Failed to initialize NumPy: _ARRAY_API not found (Triggered internally at ../torch/csrc/utils/tensor_numpy.cpp:84.)
+  device: torch.device = torch.device(torch._C._get_default_device()),  # torch.device('cpu'),
+/home/data2/public/guoweis/conda/progen2/lib/python3.11/site-packages/torch/cuda/__init__.py:611: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+Number of antibodies: 40
+Output file: benchmark/result/1mlc/seq.csv
+
+A module that was compiled using NumPy 1.x cannot be run in
+NumPy 2.4.2 as it may crash. To support both 1.x and 2.x
+versions of NumPy, modules must be compiled with NumPy 2.0.
+Some module may need to rebuild instead e.g. with 'pybind11>=2.12'.
+
+If you are a user of the module, the easiest solution will be to
+downgrade to 'numpy<2' or try to upgrade the affected module.
+We expect that some modules will need time to support NumPy 2.
+
+Traceback (most recent call last):  File "/home/data2/public/guoweis/pretrain/MAGE/benchmark/src/inference_1n8z.py", line 74, in <module>
+    main()
+  File "/home/data2/public/guoweis/pretrain/MAGE/benchmark/src/inference_1n8z.py", line 21, in main
+    import torch
+  File "/home/data2/public/guoweis/conda/progen2/lib/python3.11/site-packages/torch/__init__.py", line 1382, in <module>
+    from .functional import *  # noqa: F403
+  File "/home/data2/public/guoweis/conda/progen2/lib/python3.11/site-packages/torch/functional.py", line 7, in <module>
+    import torch.nn.functional as F
+  File "/home/data2/public/guoweis/conda/progen2/lib/python3.11/site-packages/torch/nn/__init__.py", line 1, in <module>
+    from .modules import *  # noqa: F403
+  File "/home/data2/public/guoweis/conda/progen2/lib/python3.11/site-packages/torch/nn/modules/__init__.py", line 35, in <module>
+    from .transformer import TransformerEncoder, TransformerDecoder, \
+  File "/home/data2/public/guoweis/conda/progen2/lib/python3.11/site-packages/torch/nn/modules/transformer.py", line 20, in <module>
+    device: torch.device = torch.device(torch._C._get_default_device()),  # torch.device('cpu'),
+/home/data2/public/guoweis/conda/progen2/lib/python3.11/site-packages/torch/nn/modules/transformer.py:20: UserWarning: Failed to initialize NumPy: _ARRAY_API not found (Triggered internally at ../torch/csrc/utils/tensor_numpy.cpp:84.)
+  device: torch.device = torch.device(torch._C._get_default_device()),  # torch.device('cpu'),
+/home/data2/public/guoweis/conda/progen2/lib/python3.11/site-packages/torch/cuda/__init__.py:611: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+Number of antibodies: 40
+Output file: benchmark/result/1n8z/seq.csv
+
+A module that was compiled using NumPy 1.x cannot be run in
+NumPy 2.4.2 as it may crash. To support both 1.x and 2.x
+versions of NumPy, modules must be compiled with NumPy 2.0.
+Some module may need to rebuild instead e.g. with 'pybind11>=2.12'.
+
+If you are a user of the module, the easiest solution will be to
+downgrade to 'numpy<2' or try to upgrade the affected module.
+We expect that some modules will need time to support NumPy 2.
+
+Traceback (most recent call last):  File "/home/data2/public/guoweis/pretrain/MAGE/benchmark/src/inference_2fjg.py", line 74, in <module>
+    main()
+  File "/home/data2/public/guoweis/pretrain/MAGE/benchmark/src/inference_2fjg.py", line 21, in main
+    import torch
+  File "/home/data2/public/guoweis/conda/progen2/lib/python3.11/site-packages/torch/__init__.py", line 1382, in <module>
+    from .functional import *  # noqa: F403
+  File "/home/data2/public/guoweis/conda/progen2/lib/python3.11/site-packages/torch/functional.py", line 7, in <module>
+    import torch.nn.functional as F
+  File "/home/data2/public/guoweis/conda/progen2/lib/python3.11/site-packages/torch/nn/__init__.py", line 1, in <module>
+    from .modules import *  # noqa: F403
+  File "/home/data2/public/guoweis/conda/progen2/lib/python3.11/site-packages/torch/nn/modules/__init__.py", line 35, in <module>
+    from .transformer import TransformerEncoder, TransformerDecoder, \
+  File "/home/data2/public/guoweis/conda/progen2/lib/python3.11/site-packages/torch/nn/modules/transformer.py", line 20, in <module>
+    device: torch.device = torch.device(torch._C._get_default_device()),  # torch.device('cpu'),
+/home/data2/public/guoweis/conda/progen2/lib/python3.11/site-packages/torch/nn/modules/transformer.py:20: UserWarning: Failed to initialize NumPy: _ARRAY_API not found (Triggered internally at ../torch/csrc/utils/tensor_numpy.cpp:84.)
+  device: torch.device = torch.device(torch._C._get_default_device()),  # torch.device('cpu'),
+/home/data2/public/guoweis/conda/progen2/lib/python3.11/site-packages/torch/cuda/__init__.py:611: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+Number of antibodies: 40
+Output file: benchmark/result/2fjg/seq.csv
+
+A module that was compiled using NumPy 1.x cannot be run in
+NumPy 2.4.2 as it may crash. To support both 1.x and 2.x
+versions of NumPy, modules must be compiled with NumPy 2.0.
+Some module may need to rebuild instead e.g. with 'pybind11>=2.12'.
+
+If you are a user of the module, the easiest solution will be to
+downgrade to 'numpy<2' or try to upgrade the affected module.
+We expect that some modules will need time to support NumPy 2.
+
+Traceback (most recent call last):  File "/home/data2/public/guoweis/pretrain/MAGE/benchmark/src/inference_4fqi.py", line 74, in <module>
+    main()
+  File "/home/data2/public/guoweis/pretrain/MAGE/benchmark/src/inference_4fqi.py", line 21, in main
+    import torch
+  File "/home/data2/public/guoweis/conda/progen2/lib/python3.11/site-packages/torch/__init__.py", line 1382, in <module>
+    from .functional import *  # noqa: F403
+  File "/home/data2/public/guoweis/conda/progen2/lib/python3.11/site-packages/torch/functional.py", line 7, in <module>
+    import torch.nn.functional as F
+  File "/home/data2/public/guoweis/conda/progen2/lib/python3.11/site-packages/torch/nn/__init__.py", line 1, in <module>
+    from .modules import *  # noqa: F403
+  File "/home/data2/public/guoweis/conda/progen2/lib/python3.11/site-packages/torch/nn/modules/__init__.py", line 35, in <module>
+    from .transformer import TransformerEncoder, TransformerDecoder, \
+  File "/home/data2/public/guoweis/conda/progen2/lib/python3.11/site-packages/torch/nn/modules/transformer.py", line 20, in <module>
+    device: torch.device = torch.device(torch._C._get_default_device()),  # torch.device('cpu'),
+/home/data2/public/guoweis/conda/progen2/lib/python3.11/site-packages/torch/nn/modules/transformer.py:20: UserWarning: Failed to initialize NumPy: _ARRAY_API not found (Triggered internally at ../torch/csrc/utils/tensor_numpy.cpp:84.)
+  device: torch.device = torch.device(torch._C._get_default_device()),  # torch.device('cpu'),
+/home/data2/public/guoweis/conda/progen2/lib/python3.11/site-packages/torch/cuda/__init__.py:611: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+Number of antibodies: 40
+Output file: benchmark/result/4fqi/seq.csv
+
+A module that was compiled using NumPy 1.x cannot be run in
+NumPy 2.4.2 as it may crash. To support both 1.x and 2.x
+versions of NumPy, modules must be compiled with NumPy 2.0.
+Some module may need to rebuild instead e.g. with 'pybind11>=2.12'.
+
+If you are a user of the module, the easiest solution will be to
+downgrade to 'numpy<2' or try to upgrade the affected module.
+We expect that some modules will need time to support NumPy 2.
+
+Traceback (most recent call last):  File "/home/data2/public/guoweis/pretrain/MAGE/benchmark/src/inference_aay149.py", line 74, in <module>
+    main()
+  File "/home/data2/public/guoweis/pretrain/MAGE/benchmark/src/inference_aay149.py", line 21, in main
+    import torch
+  File "/home/data2/public/guoweis/conda/progen2/lib/python3.11/site-packages/torch/__init__.py", line 1382, in <module>
+    from .functional import *  # noqa: F403
+  File "/home/data2/public/guoweis/conda/progen2/lib/python3.11/site-packages/torch/functional.py", line 7, in <module>
+    import torch.nn.functional as F
+  File "/home/data2/public/guoweis/conda/progen2/lib/python3.11/site-packages/torch/nn/__init__.py", line 1, in <module>
+    from .modules import *  # noqa: F403
+  File "/home/data2/public/guoweis/conda/progen2/lib/python3.11/site-packages/torch/nn/modules/__init__.py", line 35, in <module>
+    from .transformer import TransformerEncoder, TransformerDecoder, \
+  File "/home/data2/public/guoweis/conda/progen2/lib/python3.11/site-packages/torch/nn/modules/transformer.py", line 20, in <module>
+    device: torch.device = torch.device(torch._C._get_default_device()),  # torch.device('cpu'),
+/home/data2/public/guoweis/conda/progen2/lib/python3.11/site-packages/torch/nn/modules/transformer.py:20: UserWarning: Failed to initialize NumPy: _ARRAY_API not found (Triggered internally at ../torch/csrc/utils/tensor_numpy.cpp:84.)
+  device: torch.device = torch.device(torch._C._get_default_device()),  # torch.device('cpu'),
+/home/data2/public/guoweis/conda/progen2/lib/python3.11/site-packages/torch/cuda/__init__.py:611: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+Number of antibodies: 40
+Output file: benchmark/result/aay149/seq.csv
